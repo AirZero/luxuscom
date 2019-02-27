@@ -1,0 +1,1 @@
+{"result":[{"alternative":[{"transcript":"Enola commento","confidence":0.86782223},{"transcript":"Enola Commando"},{"transcript":"Enola, Mentos"},{"transcript":"Enola"},{"transcript":"Enola comento"}],"final":true}],"result_index":0}
