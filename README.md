@@ -7,6 +7,7 @@ With this you can create speech recognition sound commands for your Linux termin
 ## Getting Started
 
 First install needed packages:
+
 sudo apt-get install jq - for reading json
 
 sudo apt-get install espeak - for speech synthesis
