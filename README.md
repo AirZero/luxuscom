@@ -8,6 +8,7 @@ With this you can create speech recognition sound commands for your Linux termin
 
 First install needed packages:
 sudo apt-get install jq - for reading json
+
 sudo apt-get install espeak - for speech synthesis
 
 create apikey.txt to parent folder and put your Google speech api key there..
