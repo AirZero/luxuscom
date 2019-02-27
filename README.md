@@ -12,6 +12,8 @@ sudo apt-get install jq - for reading json
 
 sudo apt-get install espeak - for speech synthesis
 
+sudo apt-get install python-alsaaudio
+
 create apikey.txt to parent folder and put your Google speech api key there..
 
 Write wanted command words to commandwords.txt
