@@ -1,14 +1,16 @@
 # Luxuscom
 
-Fully Automated Luxury Gay Space Communism
+Fully Automated Luxury Gay Space Communism is here!
 
-With this you can create sound commands for your Linux terminal. Doesn't support streaming yet.
+With this you can create sound commands for your Linux terminal. Doesn't support streaming sound yet.
 
 ## Getting Started
 
 First install needed packages:
 sudo apt-get install jq - for reading json
 sudo apt-get install espeak - for speech synthesis
+
+create apikey.txt to parent folder and put your Google speech api key there..
 
 Write wanted command words to commandwords.txt
 Write corresponding commands for each command to commands.txt - they can be basic bash commands like echo
