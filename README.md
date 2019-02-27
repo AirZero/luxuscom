@@ -2,7 +2,7 @@
 
 Fully Automated Luxury Gay Space Communism
 
-With this you can create sound commands for your Linux terminal.
+With this you can create sound commands for your Linux terminal. Doesn't support streaming yet.
 
 ## Getting Started
 
