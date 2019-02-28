@@ -14,7 +14,7 @@ sudo apt-get install espeak - for speech synthesis
 
 sudo apt-get install python-alsaaudio
 
-create apikey.txt to parent folder and put your Google speech api key there..
+create apikey.txt to parent folder and put your Google speech api key there. nano ../apikey.txt
 
 Write wanted command words to commandwords.txt
 Write corresponding commands for each command to commands.txt - they can be basic bash commands like echo
