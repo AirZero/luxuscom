@@ -10,41 +10,42 @@ With this you can create speech recognition sound commands for your Linux termin
 
 What to do in command line:
 
-nano apikey.txt
-paste apikey
-ctrl+x
-y
-Enter
+- nano apikey.txt
+- paste apikey
+- ctrl+x
+- y
+- Enter
 
-git clone https://github.com/airzero/luxuscom.git
+- git clone https://github.com/airzero/luxuscom.git
 
-cd luxuscom
+- cd luxuscom
 
-chmod 775 recognizer.sh
+- chmod 775 recognizer.sh
 
-chmod 775 voice.sh
+- chmod 775 voice.sh
 
 Install needed packages:
 
 For reading json:
-sudo apt-get install jq
+- sudo apt-get install jq
 
 For speech synthesis:
-sudo apt-get install espeak
+- sudo apt-get install espeak
 
 For saving wavs:
-sudo apt-get install python-alsaaudio
+- sudo apt-get install python-alsaaudio
 
-sudo apt-get install mpg321
+- sudo apt-get install mpg321
 
 
 Write wanted command words to commandwords.txt
 Write corresponding commands for each command to commands.txt - they can be basic bash commands like echo
 or run some script like ./myscript.sh
 
-type ./recognizer.sh and test.
+type
+- ./recognizer.sh and test.
 
-Default test phrase is "Enola test" where Enola is the name of the bot. You can say that and see if it works.
+- Default test phrase is "Enola test" where Enola is the name of the bot. You can say that and see if it works.
 
 If you don't say bot's name before command it doesn't work.
 
