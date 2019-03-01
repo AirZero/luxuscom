@@ -10,11 +10,11 @@ With this you can create speech recognition sound commands for your Linux termin
 
 What to do in command line:
 
-nano apikey.txt
-paste apikey
-ctrl+x
-y
-Enter
+- nano apikey.txt
+- paste apikey
+- ctrl+x
+- y
+- Enter
 
 git clone https://github.com/airzero/luxuscom.git
 
