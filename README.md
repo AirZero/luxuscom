@@ -42,9 +42,10 @@ Write wanted command words to commandwords.txt
 Write corresponding commands for each command to commands.txt - they can be basic bash commands like echo
 or run some script like ./myscript.sh
 
-type ./recognizer.sh and test.
+type
+- ./recognizer.sh and test.
 
-Default test phrase is "Enola test" where Enola is the name of the bot. You can say that and see if it works.
+- Default test phrase is "Enola test" where Enola is the name of the bot. You can say that and see if it works.
 
 If you don't say bot's name before command it doesn't work.
 
