@@ -16,26 +16,26 @@ What to do in command line:
 - y
 - Enter
 
-git clone https://github.com/airzero/luxuscom.git
+- git clone https://github.com/airzero/luxuscom.git
 
-cd luxuscom
+- cd luxuscom
 
-chmod 775 recognizer.sh
+- chmod 775 recognizer.sh
 
-chmod 775 voice.sh
+- chmod 775 voice.sh
 
 Install needed packages:
 
 For reading json:
-sudo apt-get install jq
+- sudo apt-get install jq
 
 For speech synthesis:
-sudo apt-get install espeak
+- sudo apt-get install espeak
 
 For saving wavs:
-sudo apt-get install python-alsaaudio
+- sudo apt-get install python-alsaaudio
 
-sudo apt-get install mpg321
+- sudo apt-get install mpg321
 
 
 Write wanted command words to commandwords.txt
