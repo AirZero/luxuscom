@@ -1,9 +1,16 @@
 #!/bin/bash -eu
 
+
 # Record from mic
-arecord -d 5 -f cd -t wav -r 16000 -c 1 -D pulse test.wav
+#style 1, works for Elementary OS
+#arecord -d 5 -f cd -t wav -r 16000 -c 1 -D pulse test.wav
+
+#Style 2, works for OpinsysOS
+arecord --format=S16_LE --duration=5 --rate=16000 --file-type=wav test.wav
+
 # Get record volume
 sox test.wav -n stats -s 16 2>&1 | grep 'Max level' | awk '{print $3}'
+
 # Convert to flac for smaller footprint
 flac -f test.wav
 
