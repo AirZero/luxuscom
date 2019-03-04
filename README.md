@@ -61,9 +61,11 @@ Remember to say bot name.
 
 ## Built With
 
-Google speech api
-espeak
-
+-Google speech api
+-Twilio phone api
+-Google translate
+-jq - json
+-md2gslides / Google docs api
 
 ## Authors
 
