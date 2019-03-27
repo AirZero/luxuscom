@@ -1,6 +1,6 @@
 # Luxuscom
 
-With this you can create speech recognition sound commands for your Linux terminal. Doesn't support streaming sound yet.
+With this you can create speech recognition sound commands for your Linux terminal.
 
 ## Getting Started
 
